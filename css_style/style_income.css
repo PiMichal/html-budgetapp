@@ -24,3 +24,18 @@
 .navbar-nav a:hover{
 	color: rgb(168, 37, 37);
 }
+
+h3{
+    padding-top: 1rem;
+}
+
+.piechart {
+    width: 400px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+        red 70deg, 
+        lightblue 0 235deg, 
+        orange 0);
+}
+
