@@ -30,12 +30,33 @@ h3{
 }
 
 .piechart {
-    width: 400px;
-    height: 200px;
-    border-radius: 50%;
+    width: 300px;
+    height: 100px;
+    border-radius: 60%;
     background: conic-gradient(
         red 70deg, 
         lightblue 0 235deg, 
         orange 0);
 }
+
+.temporarytext{
+    opacity: inherit;
+	background: rgba(44, 204, 44, 0.3)
+}
+
+.table1{
+	float: left;
+}
+
+.table2{
+	float: right;
+}
+
+@media (max-width: 576px) {
+
+	.table1, .table2{
+        clear: both;
+        width: 100%;
+	}
+  }
 
